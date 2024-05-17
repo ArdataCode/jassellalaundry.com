@@ -1,0 +1,4 @@
+[16-Mar-2024 04:15:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/jassellalaundry.com/wp-includes/Requests/library/Requests.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/Requests/library/Requests.php on line 12

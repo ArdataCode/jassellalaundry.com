@@ -1,0 +1,4 @@
+[16-Mar-2024 04:17:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ujianori/jassellalaundry.com/wp-content/themes/twentytwentytwo/inc/block-patterns.php:135
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-content/themes/twentytwentytwo/inc/block-patterns.php on line 135

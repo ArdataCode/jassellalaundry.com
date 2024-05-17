@@ -1,0 +1,24 @@
+[16-Mar-2024 04:15:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/DB.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/DB.php on line 50
+[16-Mar-2024 04:15:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/File.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/File.php on line 50
+[16-Mar-2024 04:15:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/Memcache.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/Memcache.php on line 57
+[16-Mar-2024 04:15:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/Memcached.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/Memcached.php on line 58
+[16-Mar-2024 04:15:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie_Cache_DB" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/MySQL.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/MySQL.php on line 56
+[16-Mar-2024 04:15:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/Redis.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Cache/Redis.php on line 27

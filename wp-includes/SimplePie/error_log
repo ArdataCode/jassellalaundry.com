@@ -1,0 +1,4 @@
+[16-Mar-2024 04:10:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie" not found in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/SimplePie/Core.php on line 53

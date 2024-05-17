@@ -1,0 +1,121 @@
+[31-Jan-2024 15:10:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/jassellalaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/jassellalaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/jassellalaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[06-Feb-2024 17:06:45 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Feb-2024 19:15:15 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[27-Feb-2024 02:55:33 UTC] PHP Warning:  Undefined property: seraph_accel\AnyObj::$tmCur in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/oper.php on line 637
+[27-Feb-2024 02:55:33 UTC] PHP Warning:  Undefined property: seraph_accel\AnyObj::$timeout in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/oper.php on line 637
+[05-Mar-2024 04:09:03 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 04:09:03 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 04:38:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 04:38:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 04:53:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 04:53:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 05:37:01 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 05:37:01 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 05:39:32 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 05:39:32 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 07:22:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 07:22:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 08:46:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 08:46:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 08:58:32 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 08:58:32 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 09:27:34 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 09:27:34 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 09:37:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 09:37:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 15:38:01 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 15:38:01 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 19:05:32 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 19:05:32 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 19:50:33 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[05-Mar-2024 19:50:33 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[06-Mar-2024 01:34:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[06-Mar-2024 01:34:02 UTC] PHP Warning:  DOMXPath::query(): Invalid expression in /home/ujianori/jassellalaundry.com/wp-content/plugins/seraphinite-accelerator-ext/content.php on line 807
+[08-Mar-2024 22:05:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 211
+[08-Mar-2024 22:05:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 449
+[08-Mar-2024 22:05:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 730
+[09-Mar-2024 07:23:01 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 211
+[09-Mar-2024 07:23:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 449
+[09-Mar-2024 07:23:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 730
+[02-Apr-2024 18:56:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 211
+[02-Apr-2024 18:56:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/jassellalaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/jassellalaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/jassellalaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 22:40:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/jassellalaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/jassellalaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/jassellalaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[26-Apr-2024 18:18:53 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 449
+[02-May-2024 18:17:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jassellalaundry.com/wp-includes/update.php on line 449
+[07-May-2024 18:20:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/jassellalaundry.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/jassellalaundry.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/jassellalaundry.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/jassellalaundry.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/jassellalaundry.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 881

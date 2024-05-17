@@ -1,0 +1,33 @@
+[19-Jan-2024 03:51:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-includes/user.php(2662): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/user.php(233): wp_update_user()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/user-edit.php(170): edit_user()
+#7 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[19-Jan-2024 03:51:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-includes/user.php(2662): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/user.php(233): wp_update_user()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/user-edit.php(170): edit_user()
+#7 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[19-Jan-2024 03:51:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jassellalaundry.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jassellalaundry.com/wp-includes/user.php(2662): wp_mail()
+#5 /home/ujianori/jassellalaundry.com/wp-admin/includes/user.php(233): wp_update_user()
+#6 /home/ujianori/jassellalaundry.com/wp-admin/user-edit.php(170): edit_user()
+#7 {main}
+  thrown in /home/ujianori/jassellalaundry.com/wp-includes/PHPMailer/PHPMailer.php on line 874
